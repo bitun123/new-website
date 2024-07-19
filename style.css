@@ -1,0 +1,389 @@
+@font-face {
+  font-family: "nb";
+  src: url(./NBInternationalProBoo.ttf);
+}
+@font-face {
+  font-family: "REJOICE";
+  src: url(./Rejouice-Headline.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "rejoice-headline";
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+#page1 {
+  width: 100%;
+  height: 100vh;
+  background: #dadada;
+  position: relative;
+}
+.cursor {
+  width: 6.3vw;
+  height: 6.3vw;
+  background: #00000097;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 9;
+  transform: translate(-50%, -50%);
+}
+.cursor h3 {
+  font-size: 1.2vw;
+  font-weight: 50;
+  color: #fff;
+}
+#page1 video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+#page1-content {
+  width: 100%;
+  height: 100%;
+  /* background-color: black; */
+  position: relative;
+  z-index: 10;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  padding: 3vw 3vw;
+}
+.text {
+  font-size: 1.4vw;
+  font-family: nb;
+  font-weight: 100;
+}
+#page1-content h1 {
+  font-family: "rejoice";
+  font-weight: 100;
+  line-height: 23vw;
+  /* letter-spacing: -40px; */
+  font-size: 26vw;
+  /* display: inline-block; */
+}
+#page1-content h1 span {
+  font-family: "rejoice";
+  display: inline-block;
+}
+#page2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+}
+#page2Content {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #ff5f38; */
+  padding: 3vw 3vw;
+}
+.text1 {
+  font-family: nb;
+  font-weight: 100;
+  font-size: 1.4vw;
+}
+#line {
+  width: 90%;
+  height: 0.1vh;
+  background: #000;
+  display: flex;
+  margin-left: 4.5vw;
+}
+#para {
+  font-size: 5vw;
+  text-align: center;
+  font-family: nb;
+  padding-top: 3vw;
+}
+#page3 {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 2vw;
+}
+.page3-top {
+  /* background-color: red; */
+  text-align: center;
+}
+.page3-top h4 {
+  margin-bottom: 1.5vw;
+  font-size: 1vw;
+  font-weight: 500;
+  font-family: "nb";
+}
+.span1 {
+  font-size: 1vw;
+  background: #000;
+  color: #ffffff;
+  padding: 3px 8px;
+  border-radius: 10px;
+  border: none;
+}
+.span2 {
+  position: relative;
+  font-size: 2.5vw;
+  top: 6px;
+}
+.page3-top h2 {
+  font-size: 3vw;
+  font-weight: 500;
+  font-family: 'nb';
+}
+.brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 1vw;
+}
+.text3 {
+  font-size: 1.5vw;
+  font-weight: 100;
+  font-family: 'nb';
+}
+.text3 span {
+  font-weight: 100;
+  position: relative;
+  top: 2px;
+  font-size: 2vw;
+  padding-right: 3px;
+}
+#page3-element {
+  height: 77vh;
+  width: 100%;
+  /* background: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#page3-element .box {
+  height: 100%;
+  width: 33%;
+  /* background: #000; */
+  position: relative;
+  cursor: pointer;
+}
+#page3-element .box video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+#page3-element .box img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  transition: all linear 1s;
+  border-radius: 10px;
+}
+#page3-element .box:hover img {
+  opacity: 0;
+}
+#page4 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+flex-direction: column;
+  background: #ffffff;
+  padding: 4vw 1vw;
+  gap: 10px;
+}
+#ext4 {
+    /* padding: 4vw 1vw; */
+  /* position: relative;
+  top: 40px; */
+  font-size: 4vh;
+  font-weight: 100;
+  font-family: 'nb';
+}
+#line1 {
+  /* position: relative;
+  top: 55px; */
+  width: 98%;
+  height: 0.1vh;
+  background: #000;
+  display: flex;
+  font-weight: 100;
+  
+}
+#para1{
+    font-size: 3.5vw;
+}
+#para1 p{
+    font-weight: 100;
+    font-family: 'nb';
+    text-align: center;
+}
+.video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #000; */
+}
+/* .VIDEO VIDEO{
+  width: 100%;
+  height: 100vH;
+} */
+
+.video svg {
+  position: absolute;
+  height: 58%;
+  overflow: hidden;
+  animation: rotate 5s linear infinite;
+}
+@keyframes rotate{
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+#page5{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  padding: 4vw 0;
+  position: relative;
+  /* background: #000; */
+}
+.h1-text{
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 1vw;
+  border-bottom: 1px solid black;
+  margin-left: 2%;
+}
+#page5 h1{
+  font-size: 8vw;
+  font-family: "REJOICE";
+  font-weight: 100;
+  padding: 1vw;
+}
+.h1-text h3{
+  font-size: 3vw;
+  font-weight: 100;
+  font-family: "REJOICE";
+}
+.h1-text SPAN{
+  font-size: 3vw;
+  font-weight: 100;
+  padding: 1vw 1vw;
+}
+#swiper {
+  height: 55vh;
+  width: 100%;
+  padding: 2vw 2vw;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+#page6{
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+.last-text{
+  width: 100%;
+  height: 50vh;
+  /* background: #000; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.last-text h3{
+  font-size: 1vw;
+  font-weight: 100;
+  font-family: "nb";
+}
+.last-text span{
+  font-size: 1.5vw;
+  font-weight: 100;
+
+}
+.last-text h4{
+  font-size: 4vw;
+  font-weight: 100;
+  font-family: "nb";
+  border-bottom: 3px solid black;
+}
+#last{
+  width: 100%;
+  height: 73vh;
+  background: #000000e2;
+  /* padding-top: 5vw; */
+}
+#last h1 span{
+  color: #ffffff;
+  font-family: "REJOICE";
+  font-size: 27vw;
+  /* background: #000; */
+  display: inline-block;
+
+}
+#loader{
+  height: 100%;
+  width: 100%;
+  background: #000;
+  position: fixed;
+top: 0;
+z-index: 99;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+gap: 8px;
+}
+#loader h3{
+  font-size: 1.7vw;
+
+}
